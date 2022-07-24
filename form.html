@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class=" row mt-3">
+            <div class=" col-12">
+                <h1>Bootstrap-Form-Tags</h1>
+
+                <div class=" mb-3"> 
+                    <label for="name" class=" form-label">Your Name</label>
+                    <input type="text"id="name" class=" form-control is-valid">
+                    <div class=" valid-feedback">It is true</div>
+                </div>
+                <div class=" mb-3"> 
+                    <label for="email" class=" form-label">Your Email</label>
+                    <input type="email" id="email" class=" form-control is-invalid">
+                    <div class=" invalid-feedback">It Is wrong</div>
+                </div>
+
+                <div class=" mb-3"> 
+                    <label for="address" class=" form-label">Your Adress</label>
+                    <textarea name="" id="address" cols="30" rows="10" class=" form-control"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class=" mb-3">
+            <label  class=" form-label">Select Gender</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="male">
+                <label class="form-check-label" for="male">
+                  Male
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="female" checked>
+                <label class="form-check-label" for="female">
+                  Female
+                </label>
+              </div>
+
+              <div class=" mb-3">
+                <label class=" form-label">Your Skill</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Html
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Css
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Js
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Php
+                    </label>
+                  </div>
+
+              </div>
+        </div>
+
+        <div class=""></div>
+    </div>
+    
+
+    <div class=" vh-100"></div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    
+</body>
+</html>
